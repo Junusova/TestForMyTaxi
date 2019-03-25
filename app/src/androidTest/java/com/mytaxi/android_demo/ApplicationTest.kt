@@ -4,6 +4,7 @@ package com.mytaxi.android_demo
 import android.os.SystemClock
 import android.support.test.InstrumentationRegistry
 import android.support.test.espresso.Espresso.onView
+import android.support.test.espresso.action.ViewActions.*
 import android.support.test.espresso.assertion.ViewAssertions.matches
 import android.support.test.espresso.matcher.RootMatchers
 import android.support.test.espresso.matcher.ViewMatchers.*
@@ -17,12 +18,6 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import android.support.test.espresso.matcher.ViewMatchers.withParent
-import android.support.v7.widget.AppCompatImageButton
-import android.support.test.espresso.Espresso.onView
-import android.support.test.espresso.action.ViewActions.*
-import android.support.v7.widget.Toolbar
-import org.hamcrest.Matchers.allOf
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
