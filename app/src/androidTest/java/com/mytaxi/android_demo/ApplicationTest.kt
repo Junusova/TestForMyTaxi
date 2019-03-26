@@ -1,6 +1,5 @@
 package com.mytaxi.android_demo
 
-
 import android.os.SystemClock
 import android.support.test.InstrumentationRegistry
 import android.support.test.espresso.Espresso.onView
@@ -18,7 +17,6 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(AndroidJUnit4::class)
